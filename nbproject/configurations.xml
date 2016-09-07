@@ -2,12 +2,16 @@
 <configurationDescriptor version="95">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <logicalFolder name="SourceFiles" displayName="ソース・ファイル" projectFiles="true">
+      <itemPath>gcmem.c</itemPath>
       <itemPath>main.c</itemPath>
       <itemPath>shell.c</itemPath>
+      <itemPath>shell_core.c</itemPath>
       <itemPath>system.c</itemPath>
     </logicalFolder>
     <logicalFolder name="HeaderFiles" displayName="ヘッダー・ファイル" projectFiles="true">
+      <itemPath>gcmem.h</itemPath>
       <itemPath>shell.h</itemPath>
+      <itemPath>shell_core.h</itemPath>
       <itemPath>system.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles" displayName="リソース・ファイル" projectFiles="true">
@@ -34,11 +38,19 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="gcmem.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="gcmem.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="shell.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="shell.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="shell_core.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="shell_core.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="system.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -65,11 +77,19 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="gcmem.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="gcmem.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="shell.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="shell.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="shell_core.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="shell_core.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="system.c" ex="false" tool="0" flavor2="0">
       </item>
