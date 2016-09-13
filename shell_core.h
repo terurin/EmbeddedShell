@@ -8,6 +8,13 @@
 #ifndef SHELL_CORE_H
 #define	SHELL_CORE_H
 #include "gcmem.h"
+//Directory構造取得用:制約path_initが実行されていること。
+file_t path_root();
+file_t path_current();
+void path_move(file_t);
+//最初に必ず実行する必要がある関数
+void path_init();
+
 
 int path_insert(file_t brother, file_t it); //同位に要素を追加(root用)(親が追加されないので注意)
 //ファイルの基本属性について
@@ -26,5 +33,6 @@ void directory_registor_init();
 
 int shell_system(char* name);
 int shell_system_s(int argc, char** argv);
+
 #endif	/* SHELL_CORE_H */
 

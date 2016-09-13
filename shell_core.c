@@ -14,6 +14,26 @@ file_t current; //現在のパス
 file_t root; //最上位パス
 file_t lst_quick[QUICK_MAX]; //クイックリスト
 
+file_t path_root(){
+    return root;
+}
+
+file_t path_current(){
+    return current;
+}
+
+void path_move(file_t path){
+    current=path;
+}
+
+
+void path_init(){
+    //メモリ空間を初期化しroot,currentの場所を決める。
+    gc_init();
+    current=root = directory_create("root");
+   
+}
+
 int path_insert(file_t brother, file_t it) {
     if (brother == NULL)return -1;
     if (it == NULL)return -2;

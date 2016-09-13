@@ -11,18 +11,14 @@
 #include <stdbool.h>
 #include "shell_core.h"
 //やっと本格的な操作
-
-
 file_t execute_create(const char* name, int(*)(int, char**)); //そのまま実行可能なものつまり関数。
 file_t integer_create(const char* name, int* ptr, Access_t acc);
 file_t float_create(const char* name,float* ptr,Access_t acc);
 
 
-
-
 int shell_error();
 
-file_t shell_init();
+void shell_init();
 
 #endif	/* SHELL_H */
 

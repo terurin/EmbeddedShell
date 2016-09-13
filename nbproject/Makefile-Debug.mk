@@ -38,6 +38,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/gcmem.o \
 	${OBJECTDIR}/main.o \
 	${OBJECTDIR}/shell.o \
+	${OBJECTDIR}/shell_bin.o \
 	${OBJECTDIR}/shell_core.o \
 	${OBJECTDIR}/system.o
 
@@ -80,6 +81,11 @@ ${OBJECTDIR}/shell.o: shell.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/shell.o shell.c
+
+${OBJECTDIR}/shell_bin.o: shell_bin.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/shell_bin.o shell_bin.c
 
 ${OBJECTDIR}/shell_core.o: shell_core.c 
 	${MKDIR} -p ${OBJECTDIR}

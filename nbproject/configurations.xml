@@ -5,12 +5,14 @@
       <itemPath>gcmem.c</itemPath>
       <itemPath>main.c</itemPath>
       <itemPath>shell.c</itemPath>
+      <itemPath>shell_bin.c</itemPath>
       <itemPath>shell_core.c</itemPath>
       <itemPath>system.c</itemPath>
     </logicalFolder>
     <logicalFolder name="HeaderFiles" displayName="ヘッダー・ファイル" projectFiles="true">
       <itemPath>gcmem.h</itemPath>
       <itemPath>shell.h</itemPath>
+      <itemPath>shell_bin.h</itemPath>
       <itemPath>shell_core.h</itemPath>
       <itemPath>system.h</itemPath>
     </logicalFolder>
@@ -47,6 +49,10 @@
       <item path="shell.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="shell.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="shell_bin.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="shell_bin.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="shell_core.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -86,6 +92,10 @@
       <item path="shell.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="shell.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="shell_bin.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="shell_bin.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="shell_core.c" ex="false" tool="0" flavor2="0">
       </item>
