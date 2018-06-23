@@ -2,7 +2,6 @@
 #define	GCMEM_H
 
 //Shell用内部GC
-
 enum FileFags{
     AccessNone = 0x0000,
     AccessExcute = 0x0001,

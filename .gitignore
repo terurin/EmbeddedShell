@@ -1,0 +1,8 @@
+build/
+dist/
+*.stackdumpgit
+nbproject/private/
+nbproject/*.mk
+nbproject/*.bash
+git
+.dep.inc
